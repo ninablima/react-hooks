@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+div .box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div .botoes {
+    display: flex;
+    gap: 3px;
+}
+
+span {
+    font-size: 8rem;
+}
+
+button {
+    background-color: rgb(129, 166, 255);
+    padding: 0.5rem;
+    width: 8;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(197, 212, 255);
+}
+
+.botao {
+    width: 2.2rem; 
+    border-radius: 50%;
+}

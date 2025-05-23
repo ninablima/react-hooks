@@ -2,9 +2,14 @@
     margin: 0;
 }
 
+body {
+    background-image: url('https://d5wn5sd3xupzm.cloudfront.net/animaroll/item/image/normal/4d8a997f-a5dc-4409-98ef-b45533056ca0.jpg');
+    background-size: 102rem;
+}
+
 div .box {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     flex-direction: column;
@@ -14,7 +19,7 @@ div .box {
 
 div .botoes {
     display: flex;
-    gap: 3px;
+    gap: 5px;
 }
 
 span {
@@ -22,7 +27,8 @@ span {
 }
 
 button {
-    background-color: rgb(129, 166, 255);
+    color: white;
+    background-color: rgb(0, 0, 0);
     padding: 0.5rem;
     width: 8;
     font-weight: 600;
@@ -31,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(197, 212, 255);
+    background-color: rgb(46, 46, 46);
 }
 
 .botao {
